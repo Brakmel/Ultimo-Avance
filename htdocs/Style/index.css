@@ -1,0 +1,211 @@
+body{
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::-webkit-scrollbar {display: none;}
+header{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_header{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.horas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+button{
+    background-color: rgb(57 125 185);
+    color: yellow;
+    width: 40ex;
+    height: 10ex;
+    margin: 2ex;
+    border: none;
+}
+#calendario_1{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.baul_menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;   
+}
+img{
+    text-align: start;
+    width: 5ex;
+    height: 5ex;
+}
+.salas_titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 10ex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size:10ex;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.p_c{
+    color: black;
+    font-size: 3ex;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: yellow;
+    font-size:3ex;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2ex;
+}
+.baul_salas{
+    width: 99%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10ex;
+    flex-wrap: wrap;
+}
+.sala{
+    background-color: rgb(57 125 185);
+    width: 20ex;
+    height: 10ex;
+    margin: 5ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.nombre_ente{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#nombre_ente{
+    background-color: rgb(57 125 185);
+    width: 50ex;
+    height: 5ex;
+    border: none;
+    text-align: center;
+    color: white;
+}
+#nombre_ente:hover{
+    cursor: pointer;
+}
+::placeholder { color: black; }
+form{
+    background-color: rgb(57 125 185);
+    width: 90%; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10ex;
+    border-radius: 10ex;
+}
+.baul_input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_input_check{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}   
+#check{
+    width: 10ex;
+    height: 10ex;
+}
+#nombre_sala{
+    background-color: white;
+    width: 20ex;
+    height: 5ex;
+    border: none;
+    text-align: center;
+    margin: 10ex;
+}
+#send{
+    width: 20ex;
+    height: 5ex;
+    border: none;
+    margin: 5ex;
+}
+#send:hover{
+    background-color: yellow;
+    transition: 3s;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(57 125 185);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.baul_footer{
+    width: 30ex;
+    height: 10ex;
+    margin: 10ex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    height: 15ex;
+    width:15ex; 
+}
+.wspp:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+.face:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+.ints:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
